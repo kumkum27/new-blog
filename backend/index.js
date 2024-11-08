@@ -32,7 +32,7 @@ const secret='u34kuu4r8i3ryujfdhyuki28tgfhj';
 
 app.use(cors({
     origin: process.env.NODE_ENV === 'production' 
-      ? 'blogger-lime-eta.vercel.app' 
+      ? 'https://blog-rouge-gamma-58.vercel.app/' 
       : 'http://localhost:5174',
     credentials: true
   }));
